@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 const ImageCard = ({ image }) => {
   const tags = image.tags.split(",");
